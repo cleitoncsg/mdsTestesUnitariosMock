@@ -1,0 +1,27 @@
+package fga.testeUnitario;
+
+//import org.easymock.EasyMock;
+import org.easymock.EasyMock;
+import org.junit.Before;
+import org.junit.Test;
+
+import fga.controle.CalculadoraControle;
+
+public class CalculadoraControleTest{
+	
+	CalculadoraControle calculadoraControle;
+	
+	@Before 
+	public void inicializa() { 
+		calculadoraControle = EasyMock.createMock(CalculadoraControle.class);
+	}
+	
+	@Test
+	public void testProcessaDados() { 
+		calculadoraControle = EasyMock.createMock(CalculadoraControle.class);
+		EasyMock.replay(calculadoraControle);
+		EasyMock.expect(calculadoraControle.calculaSoma(5,5)).andReturn(10.0);
+		//calculadoraControle.calculaSoma(5, 5);
+		EasyMock.verify(calculadoraControle);
+	}
+}

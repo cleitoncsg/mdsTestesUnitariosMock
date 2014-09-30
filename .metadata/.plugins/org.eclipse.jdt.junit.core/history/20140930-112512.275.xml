@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testrun name="aula_teste" project="aula_teste" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="fga.testeUnitario.CalculadoraControleTest" time="0.002">
+    <testcase name="testSomaComExcecao" classname="fga.testeUnitario.CalculadoraControleTest" time="0.001"/>
+    <testcase name="testSoma" classname="fga.testeUnitario.CalculadoraControleTest" time="0.001"/>
+  </testsuite>
+  <testsuite name="fga.testeMock.CalculadoraControleTestMock" time="0.35">
+    <testcase name="testSoma" classname="fga.testeMock.CalculadoraControleTestMock" time="0.35"/>
+  </testsuite>
+</testrun>

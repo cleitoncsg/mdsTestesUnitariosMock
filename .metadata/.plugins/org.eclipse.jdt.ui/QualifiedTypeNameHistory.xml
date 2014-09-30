@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.junit.Before"/>
+<fullyQualifiedTypeName name="org.junit.Test"/>
+<fullyQualifiedTypeName name="org.junit.Assert"/>
+<fullyQualifiedTypeName name="org.easymock.CaptureType"/>
+<fullyQualifiedTypeName name="fga.testeUnitario.CalculadoraControleTest"/>
+<fullyQualifiedTypeName name="org.easymock.EasyMock"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="fga.controle.CalculadoraControle"/>
+</qualifiedTypeNameHistroy>
