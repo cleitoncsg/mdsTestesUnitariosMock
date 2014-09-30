@@ -1,0 +1,5 @@
+package fga.mds.excecao;
+
+public class ValidaCalculadora {
+
+}

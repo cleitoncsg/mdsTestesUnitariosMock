@@ -20,24 +20,18 @@ public class CalculadoraControleTest {
 	}
 
 	@Test
-	public void testCalculaSoma() throws Exception{
+	public void testCalculaSoma(){
 		calculadora.setNumero1(8);
 		calculadora.setNumero2(7);
 		assertEquals(15, calculadoraControle.calculaSoma(calculadora),0.001);
 	}
 	
 
-	@Test
-	public void testCalculaSomaComExcecao() throws Exception{
+	@Test(expected = IllegalArgumentException.class)
+	public void testCalculaSomaComExcecao(){
 		calculadora.setNumero1(-8);
 		calculadora.setNumero2(-7);
-		
-		try {
-			calculadoraControle.calculaSoma(calculadora);
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-		
+		calculadoraControle.calculaSoma(calculadora);
 	}
 
 }

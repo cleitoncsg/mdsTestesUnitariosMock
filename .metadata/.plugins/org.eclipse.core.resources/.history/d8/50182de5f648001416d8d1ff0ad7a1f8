@@ -31,9 +31,9 @@ public class CalculadoraControleTest {
 	public void testCalculaSomaComExcecao() throws Exception{
 		calculadora.setNumero1(-8);
 		calculadora.setNumero2(-7);
-		
+		calculadoraControle.calculaSoma(calculadora);
 		try {
-			calculadoraControle.calculaSoma(calculadora);
+			
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

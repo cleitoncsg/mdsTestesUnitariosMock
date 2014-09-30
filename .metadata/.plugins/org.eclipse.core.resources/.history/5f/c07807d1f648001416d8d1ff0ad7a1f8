@@ -1,17 +1,15 @@
 package fga.mds.controle;
 
-import fga.mds.excecao.ValidaCalculadora;
 import fga.mds.modelo.Calculadora;
 
 public class CalculadoraControle {
 	
 	Calculadora calculadora = new Calculadora();
-	ValidaCalculadora validaCalculadora = new ValidaCalculadora();
 	
-	public double calculaSoma(Calculadora calculadora) throws Exception{
+	public double calculaSoma(Calculadora calculadora){
 		
 		if(calculadora.getNumero1() < 0 || calculadora.getNumero2() < 0){
-			validaCalculadora.validaNumeroNegativos();
+			throw new IllegalArgumentException("Número negativo!");
 		}
 		return calculadora.getNumero1() + calculadora.getNumero2();
 	}

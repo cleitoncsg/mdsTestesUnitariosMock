@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testrun name="CalculadoraControleTest (2)" project="mdsAulaTiposDeTesteNivel2" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="fga.mds.testes.CalculadoraControleTest" time="0.001">
+    <testcase name="testCalculaSomaComExcecao" classname="fga.mds.testes.CalculadoraControleTest" time="0.001"/>
+    <testcase name="testCalculaSoma" classname="fga.mds.testes.CalculadoraControleTest" time="0.0"/>
+  </testsuite>
+</testrun>
