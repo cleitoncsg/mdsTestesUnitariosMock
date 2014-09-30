@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testrun name="mdsAulaTiposDeTestesNivel1" project="mdsAulaTiposDeTestesNivel1" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="fga.testeUnitario.CalculadoraControleTest" time="0.001">
+    <testcase name="testCalculoSoma" classname="fga.testeUnitario.CalculadoraControleTest" time="0.001"/>
+  </testsuite>
+  <testsuite name="fga.testeMock.CalculadoraControleTestMock" time="0.084">
+    <testcase name="testSoma" classname="fga.testeMock.CalculadoraControleTestMock" time="0.084"/>
+  </testsuite>
+</testrun>

@@ -1,0 +1,13 @@
+package fga.mds.modelo;
+
+public class Calculadora {
+	
+	private double numero1, numero2;
+	
+	public Calculadora(){
+		
+	}
+
+	
+
+}

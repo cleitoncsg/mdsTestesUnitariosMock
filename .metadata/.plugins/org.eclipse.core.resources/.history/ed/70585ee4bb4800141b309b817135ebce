@@ -1,0 +1,20 @@
+package fga.mds.testes;
+
+
+import fga.mds.controle.CalculadoraControle;
+
+public class CalculadoraControleTest {
+
+	CalculadoraControle calculadoraControle;
+	
+	@Before
+	public void setUp() throws Exception {
+		calculadoraControle = new CalculadoraControle();
+	}
+
+	@Test
+	public void testCalculaSoma() {
+		
+	}
+
+}

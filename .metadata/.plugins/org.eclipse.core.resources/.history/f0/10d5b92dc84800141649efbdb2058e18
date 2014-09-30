@@ -1,0 +1,19 @@
+package fga.controle;
+
+import static org.junit.Assert.*;
+
+import org.junit.Before;
+import org.junit.Test;
+
+public class CalculadoraControleTest {
+
+	@Before
+	public void setUp() throws Exception {
+	}
+
+	@Test
+	public void testCalculoSoma() {
+		fail("Not yet implemented");
+	}
+
+}

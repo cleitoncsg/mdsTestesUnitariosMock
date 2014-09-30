@@ -1,0 +1,13 @@
+package fga.mds.controle;
+
+import fga.mds.modelo.Calculadora;
+
+public class CalculadoraControle {
+	
+	Calculadora calculadora = new Calculadora();
+	
+	public double calculaSoma(Calculadora calculadora){
+		return calculadora.getNumero1() + calculadora.getNumero2();
+	}
+
+}

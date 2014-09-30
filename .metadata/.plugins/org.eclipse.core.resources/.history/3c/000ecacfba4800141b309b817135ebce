@@ -1,0 +1,25 @@
+package fga.mds.modelo;
+
+import static org.junit.Assert.*;
+
+import org.junit.Before;
+import org.junit.Test;
+
+import fga.mds.modelo.Calculadora;
+
+public class CalculadoraTest {
+
+	Calculadora calculadora;
+	
+	@Before
+	public void setUp() throws Exception {
+		calculadora = new Calculadora();
+	}
+
+	@Test
+	public void testMetodosRecuperadoresModificadores() {
+		calculadora.setNumero1(10);
+		assertEquals(10, calculadora.getNumero1(), 0.001);
+	}
+
+}

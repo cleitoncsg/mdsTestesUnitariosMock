@@ -1,0 +1,26 @@
+package fga.mds.testes;
+
+
+import static org.junit.Assert.*;
+
+import org.junit.Before;
+import org.junit.Test;
+
+import fga.mds.controle.CalculadoraControle;
+
+public class CalculadoraControleTest {
+
+	CalculadoraControle calculadoraControle;
+	
+	@Before
+	public void setUp() throws Exception {
+		calculadoraControle = new CalculadoraControle();
+	}
+
+	@Test
+	public void testCalculaSoma() {
+		calculadoraControle = new CalculadoraControle();
+		assertEquals(10,calculadoraControle
+	}
+
+}

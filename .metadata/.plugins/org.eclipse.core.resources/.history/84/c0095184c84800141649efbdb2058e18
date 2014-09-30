@@ -1,0 +1,22 @@
+package fga.controle;
+
+import static org.junit.Assert.*;
+
+import org.junit.Before;
+import org.junit.Test;
+
+public class CalculadoraControleTest {
+
+	public CalculadoraControle calculadoraControle;
+	
+	@Before
+	public void setup(){
+		calculadoraControle = new CalculadoraControle();
+	}
+
+	@Test
+	public void testCalculoSoma() {
+		
+	}
+
+}
