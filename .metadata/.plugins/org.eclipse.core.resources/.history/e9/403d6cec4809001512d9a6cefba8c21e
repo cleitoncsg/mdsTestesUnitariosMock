@@ -1,0 +1,51 @@
+package desafio.mds.controle;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+
+import desafio.mds.modelo.Aluno;
+
+public class AlunoControle {
+	Aluno aluno = new Aluno();
+	ArrayList<Aluno> cadastro = new ArrayList<Aluno>();
+	
+	public Aluno cadastroAluno(String nome, String curso, int matricula){
+		aluno.setCurso(curso);
+		aluno.setMatricula(matricula);
+		aluno.setNome(nome);
+		
+		cadastro.add(aluno);
+				
+		return aluno;
+	}
+	
+	public int contaAlunosCastrados(){
+		return cadastro.size();
+	}
+	
+	public Aluno editarAluno(String nome, String curso, int matricula){
+		Iterator<Aluno> i = cadastro.iterator();
+		
+		while(i.hasNext()){
+			if(matricula == i.next().getMatricula()){
+				i.next().setCurso(curso);
+				i.next().setMatricula(matricula);
+				i.next().setNome(curso);
+				break;
+			}
+		}
+		
+		return aluno;
+	}
+	
+	public void excluirAluno(String nome, String curso, int matricula){
+		Iterator<Aluno> i = cadastro.iterator();
+		
+		while(i.hasNext()){
+			if(matricula == i.next().getMatricula()){
+				cadastro.remove(i.next());
+				break;
+			}
+		}
+	}
+}

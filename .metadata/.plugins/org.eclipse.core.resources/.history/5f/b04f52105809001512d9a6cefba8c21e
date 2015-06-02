@@ -1,0 +1,9 @@
+package fga.eletronjun.excecao;
+
+public class ContaExcecao {
+
+	public void lancaExcecao(Exception e){
+		
+	}
+
+}

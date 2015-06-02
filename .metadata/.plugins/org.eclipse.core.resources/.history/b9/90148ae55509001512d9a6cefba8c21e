@@ -1,0 +1,12 @@
+package fga.eletronjun.excecao;
+
+public class Snippet {
+	@Test
+		public void testDeposito() {
+			conta.setValorDeposito(10);
+			cadastro.add(conta);
+			assertEquals(10, conta.getValorDeposito(), 0.01);
+	
+			}
+}
+

@@ -1,0 +1,9 @@
+package desafio.mds.excecao;
+
+public class AlunoExcecao {
+
+	public void enviaExcecao(){
+		throw new Exception("Números negativos não são válidos!");
+	}
+
+}

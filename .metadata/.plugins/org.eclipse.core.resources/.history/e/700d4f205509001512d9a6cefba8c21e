@@ -1,0 +1,42 @@
+package fga.eletronjun.controle;
+
+import static org.junit.Assert.*;
+
+import java.util.ArrayList;
+
+import org.junit.AfterClass;
+import org.junit.Before;
+import org.junit.Test;
+
+import fga.eletronjun.modelo.Conta;
+
+public class ContaControleTest {
+	ContaControle contaControle;
+	Conta conta;
+	ArrayList<Conta> cadastro;
+	@Before
+	public void setUp() throws Exception {
+		cadastro = new ArrayList<Conta>();
+		conta = new Conta();
+		contaControle = new ContaControle();
+	}
+
+	@Test
+	public void testDeposito() {
+		conta.setValorDeposito(10);
+		cadastro.add(conta);
+		assertEquals(10, conta.getValorDeposito(), 0.01);
+
+		}
+	@Test
+	public void testSaque() {
+		conta.setValorDeposito(10);
+		cadastro.add(conta);
+		assertEquals(10, conta.getValorDeposito(), 0.01);
+		conta.setValorRetirada(5);
+		assertEquals(5, contaControle.calculoSaldoConta(), 0.01);
+		
+
+		}
+
+}

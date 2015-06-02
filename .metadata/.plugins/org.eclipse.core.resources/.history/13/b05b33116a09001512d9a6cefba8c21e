@@ -1,0 +1,24 @@
+package fga.mds.testes;
+
+import static org.junit.Assert.*;
+
+import org.junit.AfterClass;
+import org.junit.Before;
+import org.junit.Test;
+
+import fga.mds.util.RegulacaoUtil;
+
+public class RegulacaoUtilTest {
+	RegulacaoUtil ru;
+	@Before
+	public void setUp() throws Exception {
+		ru = new RegulacaoUtil();
+	}
+
+	@Test
+	public void testImposto() {
+		
+		assertEquals(ru.taxaImpostoOperacaoFinanceira(100), 6, 0.01);
+	}
+
+}

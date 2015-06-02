@@ -1,0 +1,9 @@
+package fga.mds.excecao;
+
+public class ContaExcecao {
+
+	public void lancaExcecao(Exception e){
+		e.printStackTrace();
+	}
+
+}

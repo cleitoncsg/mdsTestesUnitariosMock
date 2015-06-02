@@ -1,0 +1,19 @@
+package desafio.mds.controle;
+
+import java.util.ArrayList;
+
+import desafio.mds.modelo.Aluno;
+
+public class AlunoControle {
+	
+	public Aluno cadastroAluno(String nome, String curso, int matricula){
+		Aluno aluno = new Aluno();
+		
+		aluno.setCurso(curso);
+		aluno.setMatricula(matricula);
+		aluno.setNome(nome);
+				
+		return aluno;
+	}
+
+}

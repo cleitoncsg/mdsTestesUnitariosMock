@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="ContaControleTest" project="desafioTestes" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="fga.eletronjun.controle.ContaControleTest" time="0.001">
+    <testcase name="testDeposito" classname="fga.eletronjun.controle.ContaControleTest" time="0.0"/>
+  </testsuite>
+</testrun>

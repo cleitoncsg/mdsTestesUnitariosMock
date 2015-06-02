@@ -1,0 +1,42 @@
+package desafio.mds.controle;
+
+import static org.junit.Assert.*;
+
+import java.util.ArrayList;
+
+import org.junit.Before;
+import org.junit.Test;
+
+import desafio.mds.modelo.Aluno;
+
+public class AlunoControleTest {
+	private AlunoControle alunoControle;
+	
+ 	@Before
+	public void setUp() throws Exception {
+ 		alunoControle = new AlunoControle();
+	}
+
+	@Test
+	public void cadastroAlunoTeste() {
+		assertEquals(alunoControle.cadastroAluno("cleiton", "Esw", 10097021).getMatricula(), 10097021);
+		assertEquals(alunoControle.cadastroAluno("cleiton", "Esw", 10097021).getCurso(), "Esw");
+		assertEquals(alunoControle.cadastroAluno("cleiton", "Esw", 10097021).getNome(), "cleiton");
+	}
+	
+	@Test
+	public void contaAlunosCadastroTeste(){
+		alunoControle.cadastroAluno("cleiton", "Esw", 10097021);
+		assertEquals(alunoControle.contaAlunosCastrados(), 1);
+		
+	}
+	
+	public void editarAlunoTeste() {
+		assertEquals(0, cadastro.size());
+		cadastro.add(alunoControle.cadastroAluno("vanessa", "Esw", 101300));
+		assertEquals(1, cadastro.size());
+		assertEquals(alunoControle.cadastroAluno("cleiton", "Esw", 100000).getNome(), "cleiton");
+	}
+	
+
+}

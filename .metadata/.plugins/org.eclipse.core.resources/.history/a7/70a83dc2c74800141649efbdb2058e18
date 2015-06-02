@@ -1,9 +1,0 @@
-package fga.controle;
-
-public class CalculadoraControle {
-	
-	public double calculoSoma(double numero1, double numero2) throws Exception{
-		return numero2 + numero1;
-	}
-
-}

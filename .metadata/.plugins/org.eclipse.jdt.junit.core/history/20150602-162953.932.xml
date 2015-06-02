@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="desafioTestes" project="desafioTestes" tests="5" started="5" failures="0" errors="0" ignored="0">
+  <testsuite name="fga.eletronjun.controle.ContaControleTest" time="0.001">
+    <testcase name="testSaque" classname="fga.eletronjun.controle.ContaControleTest" time="0.001"/>
+    <testcase name="testDepositoComExecao" classname="fga.eletronjun.controle.ContaControleTest" time="0.0"/>
+    <testcase name="testSaqueComExecao" classname="fga.eletronjun.controle.ContaControleTest" time="0.0"/>
+    <testcase name="testDeposito" classname="fga.eletronjun.controle.ContaControleTest" time="0.0"/>
+  </testsuite>
+  <testsuite name="fga.eletronjun.util.RegulacaoUtilTest" time="0.0">
+    <testcase name="testImposto" classname="fga.eletronjun.util.RegulacaoUtilTest" time="0.0"/>
+  </testsuite>
+</testrun>

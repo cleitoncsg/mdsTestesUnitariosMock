@@ -1,9 +1,0 @@
-package fga.controle;
-
-public class CalculadoraControle {
-	
-	public int calculoSoma(double numero1, double numero2){
-		return numero2 + numero1;
-	}
-
-}

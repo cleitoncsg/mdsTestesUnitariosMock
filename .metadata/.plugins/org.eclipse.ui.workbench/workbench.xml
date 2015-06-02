@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="20" version="2.0">
+<workbench progressCount="26" version="2.0">
 <workbenchAdvisor/>
 <window height="744" maximized="true" width="1024" x="65" y="24">
 <fastViewData fastViewLocation="1024"/>
@@ -8,18 +8,23 @@
 </perspectiveBar>
 <coolbarLayout>
 <coolItem id="group.file" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="132" y="30"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="192" y="30"/>
 <coolItem id="additions" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="156" y="30"/>
-<coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="76" y="30"/>
-<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="76" y="30"/>
-<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="68" y="30"/>
-<coolItem id="group.nav" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="184" y="30"/>
-<coolItem id="group.editor" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="it.fbk.sra.ejade.actionSet" itemType="typeToolBarContribution" x="68" y="30"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="204" y="30"/>
 <coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
-<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="88" y="30"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="116" y="30"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="124" y="30"/>
+<coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.debug.ui.launch.toolbar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.debug.ui.main.toolbar" itemType="typeToolBarContribution" x="40" y="30"/>
+<coolItem id="group.nav" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="232" y="30"/>
+<coolItem id="group.editor" itemType="typeGroupMarker"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
@@ -28,10 +33,41 @@
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+</presentation>
 </folder>
 </info>
 </editorArea>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CalculadoraControleTestMock.java" partName="CalculadoraControleTestMock.java" path="/home/vanessa/Documentos/mdsTestesUnitariosMock/mdsAulaTiposDeTestesNivel1/src/fga/testeMock/CalculadoraControleTestMock.java" title="CalculadoraControleTestMock.java" tooltip="mdsAulaTiposDeTestesNivel1/src/fga/testeMock/CalculadoraControleTestMock.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/mdsAulaTiposDeTestesNivel1/src/fga/testeMock/CalculadoraControleTestMock.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="546" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CalculadoraControle.java" partName="CalculadoraControle.java" path="/home/vanessa/Documentos/mdsTestesUnitariosMock/mdsAulaTiposDeTesteNivel2/src/fga/mds/controle/CalculadoraControle.java" title="CalculadoraControle.java" tooltip="mdsAulaTiposDeTesteNivel2/src/fga/mds/controle/CalculadoraControle.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/mdsAulaTiposDeTesteNivel2/src/fga/mds/controle/CalculadoraControle.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="231" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ValidaCalculadora.java" partName="ValidaCalculadora.java" path="/home/vanessa/Documentos/mdsTestesUnitariosMock/mdsAulaTiposDeTesteNivel2/src/fga/mds/excecao/ValidaCalculadora.java" title="ValidaCalculadora.java" tooltip="mdsAulaTiposDeTesteNivel2/src/fga/mds/excecao/ValidaCalculadora.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/mdsAulaTiposDeTesteNivel2/src/fga/mds/excecao/ValidaCalculadora.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Calculadora.java" partName="Calculadora.java" path="/home/vanessa/Documentos/mdsTestesUnitariosMock/mdsAulaTiposDeTesteNivel2/src/fga/mds/modelo/Calculadora.java" title="Calculadora.java" tooltip="mdsAulaTiposDeTesteNivel2/src/fga/mds/modelo/Calculadora.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/mdsAulaTiposDeTesteNivel2/src/fga/mds/modelo/Calculadora.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="367" selectionTopPixel="42"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CalculadoraControleTest.java" partName="CalculadoraControleTest.java" path="/home/vanessa/Documentos/mdsTestesUnitariosMock/mdsAulaTiposDeTesteNivel2/src/fga/mds/testes/CalculadoraControleTest.java" title="CalculadoraControleTest.java" tooltip="mdsAulaTiposDeTesteNivel2/src/fga/mds/testes/CalculadoraControleTest.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/mdsAulaTiposDeTesteNivel2/src/fga/mds/testes/CalculadoraControleTest.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="891" selectionTopPixel="161"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Pessoa.java" partName="Pessoa.java" path="/home/vanessa/Documentos/mdsTestesUnitariosMock/mdsAulaTiposDeTestesNivel1/src/modelo/Pessoa.java" title="Pessoa.java" tooltip="mdsAulaTiposDeTestesNivel1/src/modelo/Pessoa.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/mdsAulaTiposDeTestesNivel1/src/modelo/Pessoa.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="67" selectionTopPixel="0"/>
+</editor>
 </editors>
 <views>
 <view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
@@ -43,9 +79,7 @@
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
-<category IMemento.internal.id="Errors"/>
-<category IMemento.internal.id="Warnings"/>
-<category IMemento.internal.id="Warnings (2 items)"/>
+<category IMemento.internal.id="Warnings (3 items)"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="266" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.resourceField="105" org.eclipse.ui.ide.severityAndDescriptionField="350"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
@@ -54,6 +88,9 @@
 <visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
 </viewState>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
 </view>
 <view id="org.eclipse.jdt.ui.PackageExplorer" partName="Package Explorer">
 <viewState group_libraries="1" layout="2" linkWithEditor="0" rootMode="1" workingSetName="">
@@ -104,7 +141,7 @@
 <viewState column0="300" column1="80" column2="120" column3="120" column4="346" counters="INSTRUCTION" hideunusedelements="false" linked="false" reversesort="true" roottype="GROUP" sortcolumn="3"/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.jdt.ui.PackageExplorer" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.ui.internal.ide.application.ResourcePerspective" id="org.eclipse.ui.resourcePerspective" label="Resource"/>
 <alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
@@ -185,6 +222,9 @@
 <alwaysOnActionSet id="org.eclipse.jdt.debug.ui.JDTDebugActionSet"/>
 <alwaysOnActionSet id="org.eclipse.jdt.junit.JUnitActionSet"/>
 <alwaysOnActionSet id="com.mountainminds.eclemma.ui.CoverageActionSet"/>
+<alwaysOnActionSet id="net.sf.eclipsefp.haskell.ui.navigation"/>
+<alwaysOnActionSet id="it.fbk.sra.ejade.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.wb.core.ui.actionset"/>
 <show_view_action id="org.eclipse.jdt.ui.PackageExplorer"/>
 <show_view_action id="org.eclipse.jdt.ui.TypeHierarchy"/>
 <show_view_action id="org.eclipse.jdt.ui.SourceView"/>
@@ -222,6 +262,7 @@
 <view id="org.eclipse.ui.views.ProblemView"/>
 <view id="org.eclipse.jdt.ui.SourceView"/>
 <view id="com.mountainminds.eclemma.ui.CoverageView"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
 <view id="org.eclipse.ui.views.ContentOutline"/>
 <fastViewBars/>
 <layout>
@@ -246,25 +287,26 @@
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@14d4f2b" ratio="0.23410852" ratioLeft="302" ratioRight="988" relationship="2" relative="left">
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@14d4f2b" ratio="0.35548523" ratioLeft="337" ratioRight="611" relationship="2" relative="left">
 <folder appearance="2" expanded="2">
 <page content="org.eclipse.jdt.ui.JavadocView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info folder="true" part="bottom" ratio="0.94245726" ratioLeft="606" ratioRight="37" relationship="4" relative="org.eclipse.ui.internal.ViewStack@14d4f2b">
+<info folder="true" part="bottom" ratio="0.7072072" ratioLeft="471" ratioRight="195" relationship="4" relative="org.eclipse.ui.internal.ViewStack@14d4f2b">
 <folder activePageID="com.mountainminds.eclemma.ui.CoverageView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.jdt.ui.SourceView" label="Declaration"/>
 <page content="com.mountainminds.eclemma.ui.CoverageView" label="Coverage"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
-<page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
 <part id="2"/>
+<part id="3"/>
 </presentation>
 </folder>
 </info>
@@ -284,7 +326,43 @@
 </perspective>
 </perspectives>
 <workingSets/>
-<navigationHistory/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/mdsAulaTiposDeTestesNivel1/src/fga/testeMock/CalculadoraControleTestMock.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/mdsAulaTiposDeTesteNivel2/src/fga/mds/controle/CalculadoraControle.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/mdsAulaTiposDeTesteNivel2/src/fga/mds/excecao/ValidaCalculadora.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/mdsAulaTiposDeTesteNivel2/src/fga/mds/modelo/Calculadora.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/mdsAulaTiposDeTesteNivel2/src/fga/mds/testes/CalculadoraControleTest.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/mdsAulaTiposDeTestesNivel1/src/modelo/Pessoa.java"/>
+</editors>
+<item historyLabel="CalculadoraControleTestMock.java" index="0">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="CalculadoraControle.java" index="1">
+<position info="not_deleted" x="512" y="0"/>
+</item>
+<item historyLabel="ValidaCalculadora.java" index="2">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Calculadora.java" index="3">
+<position info="not_deleted" x="367" y="0"/>
+</item>
+<item historyLabel="CalculadoraControleTest.java" index="4">
+<position info="not_deleted" x="891" y="0"/>
+</item>
+<item historyLabel="CalculadoraControle.java" index="1">
+<position info="not_deleted" x="231" y="0"/>
+</item>
+<item historyLabel="CalculadoraControleTest.java" index="4">
+<position info="not_deleted" x="891" y="0"/>
+</item>
+<item historyLabel="Calculadora.java" index="3">
+<position info="not_deleted" x="367" y="0"/>
+</item>
+<item active="true" historyLabel="Pessoa.java" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+</navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>
@@ -301,17 +379,29 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Pessoa.java" tooltip="mdsAulaTiposDeTestesNivel1/src/modelo/Pessoa.java">
+<persistable path="/mdsAulaTiposDeTestesNivel1/src/modelo/Pessoa.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CalculadoraControleTest.java" tooltip="mdsAulaTiposDeTesteNivel2/src/fga/mds/testes/CalculadoraControleTest.java">
+<persistable path="/mdsAulaTiposDeTesteNivel2/src/fga/mds/testes/CalculadoraControleTest.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Calculadora.java" tooltip="mdsAulaTiposDeTesteNivel2/src/fga/mds/modelo/Calculadora.java">
+<persistable path="/mdsAulaTiposDeTesteNivel2/src/fga/mds/modelo/Calculadora.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ValidaCalculadora.java" tooltip="mdsAulaTiposDeTesteNivel2/src/fga/mds/excecao/ValidaCalculadora.java">
+<persistable path="/mdsAulaTiposDeTesteNivel2/src/fga/mds/excecao/ValidaCalculadora.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CalculadoraControle.java" tooltip="mdsAulaTiposDeTesteNivel2/src/fga/mds/controle/CalculadoraControle.java">
+<persistable path="/mdsAulaTiposDeTesteNivel2/src/fga/mds/controle/CalculadoraControle.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CalculadoraControleTestMock.java" tooltip="mdsAulaTiposDeTestesNivel1/src/fga/testeMock/CalculadoraControleTestMock.java">
+<persistable path="/mdsAulaTiposDeTestesNivel1/src/fga/testeMock/CalculadoraControleTestMock.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CalculadoraControleTest.java" tooltip="mdsAulaTiposDeTesteNivel2/src/fga/mds/controle/CalculadoraControleTest.java">
 <persistable path="/mdsAulaTiposDeTesteNivel2/src/fga/mds/controle/CalculadoraControleTest.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CalculadoraTest.java" tooltip="mdsAulaTiposDeTesteNivel2/src/fga/mds/modelo/CalculadoraTest.java">
 <persistable path="/mdsAulaTiposDeTesteNivel2/src/fga/mds/modelo/CalculadoraTest.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CalculadoraControle.java" tooltip="mdsAulaTiposDeTesteNivel2/src/fga/mds/controle/CalculadoraControle.java">
-<persistable path="/mdsAulaTiposDeTesteNivel2/src/fga/mds/controle/CalculadoraControle.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Calculadora.java" tooltip="mdsAulaTiposDeTesteNivel2/src/fga/mds/modelo/Calculadora.java">
-<persistable path="/mdsAulaTiposDeTesteNivel2/src/fga/mds/modelo/Calculadora.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CalculadoraControle.java" tooltip="aula_teste/src/fga/controle/CalculadoraControle.java">
 <persistable path="/aula_teste/src/fga/controle/CalculadoraControle.java"/>
@@ -333,15 +423,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TesteDesenhoComMockito.java" tooltip="Dubles/9-mockito/teste/TesteDesenhoComMockito.java">
 <persistable path="/Dubles/9-mockito/teste/TesteDesenhoComMockito.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="IFigura.java" tooltip="Dubles/5-espiao/sistema/IFigura.java">
-<persistable path="/Dubles/5-espiao/sistema/IFigura.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Figura.java" tooltip="Dubles/5-espiao/sistema/Figura.java">
-<persistable path="/Dubles/5-espiao/sistema/Figura.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Desenho.java" tooltip="Dubles/5-espiao/sistema/Desenho.java">
-<persistable path="/Dubles/5-espiao/sistema/Desenho.java"/>
 </file>
 </mruList>
 </workbench>

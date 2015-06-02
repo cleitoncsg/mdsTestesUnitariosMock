@@ -1,0 +1,25 @@
+package fga.eletronjun;
+
+public class Fibonacci {
+
+	public static void main(String[] args) {
+		int contaPrimo = 0;
+		
+	
+		for(int numero = 2; numero < 300; numero++){
+			for (int i = 1; i <= numero; i++) {
+				if(numero % i == 0){
+					contaPrimo++;
+				}
+			}
+			
+			if(contaPrimo <= 2){
+				System.out.println(numero);
+			}
+			
+			contaPrimo = 0;
+		}
+
+	}
+
+}

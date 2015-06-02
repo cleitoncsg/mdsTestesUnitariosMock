@@ -1,0 +1,13 @@
+package fga.eletronjun;
+
+public class Fibonacci {
+
+	public static void main(String[] args) {
+		int primeiro = 1;
+		int segundo = 1;
+		
+		
+
+	}
+
+}

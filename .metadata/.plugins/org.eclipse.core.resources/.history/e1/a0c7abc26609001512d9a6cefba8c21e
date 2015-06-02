@@ -1,0 +1,59 @@
+package fga.mds.testes;
+
+import static org.junit.Assert.*;
+
+import java.util.ArrayList;
+
+import org.junit.AfterClass;
+import org.junit.Before;
+import org.junit.Test;
+
+import fga.mds.controle.ContaControle;
+import fga.mds.modelo.Conta;
+
+public class ContaControleTest {
+	ContaControle contaControle;
+	Conta conta;
+	ArrayList<Conta> cadastro;
+	@Before
+	public void setUp() throws Exception {
+		cadastro = new ArrayList<Conta>();
+		conta = new Conta();
+		contaControle = new ContaControle();
+	}
+
+	@Test
+	public void testDeposito() {
+		conta.setValorDeposito(10);
+		cadastro.add(conta);
+		assertEquals(10, conta.getValorDeposito(), 0.01);
+
+		}
+	@Test
+	public void testSaque() throws Exception {
+			contaControle.deposito(20);
+			contaControle.saque(10);
+			assertEquals(10, contaControle.calculoSaldoConta(), 0.01);
+		
+	}
+	@Test
+	public void testSaqueComExecao() throws Exception {
+			contaControle.saque(-5);
+			contaControle.deposito(valorDeposito);
+			assertEquals(-5, contaControle.calculoSaldoConta(), 0.01);
+	}
+	
+	@Test
+	public void testDepositoComExecao() {
+		try {
+			contaControle.saque(-10);
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+
+		}
+	
+
+}

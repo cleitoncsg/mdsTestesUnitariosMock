@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="desafioTestes" project="desafioTestes" tests="7" started="7" failures="0" errors="0" ignored="0">
+  <testsuite name="fga.mds.testes.ContaControleTest" time="0.006">
+    <testcase name="testSaque" classname="fga.mds.testes.ContaControleTest" time="0.001"/>
+    <testcase name="testDepositoComExecao" classname="fga.mds.testes.ContaControleTest" time="0.002"/>
+    <testcase name="testSaldoDaConta" classname="fga.mds.testes.ContaControleTest" time="0.0"/>
+    <testcase name="testSaqueComExcecao" classname="fga.mds.testes.ContaControleTest" time="0.001"/>
+    <testcase name="testDeposito" classname="fga.mds.testes.ContaControleTest" time="0.002"/>
+  </testsuite>
+  <testsuite name="fga.mds.testes.RegulacaoUtilTest" time="0.0">
+    <testcase name="testTaxaImpostoOperacaoFinanceira" classname="fga.mds.testes.RegulacaoUtilTest" time="0.0"/>
+    <testcase name="testTaxaImpostoOperacaoFinanceiraComExcecao" classname="fga.mds.testes.RegulacaoUtilTest" time="0.0"/>
+  </testsuite>
+</testrun>

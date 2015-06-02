@@ -1,0 +1,13 @@
+package desafio.mds.excecao;
+
+public class AlunoExcecao {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

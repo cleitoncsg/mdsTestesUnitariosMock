@@ -1,0 +1,49 @@
+package desafio.mds.controle;
+
+import static org.junit.Assert.*;
+
+import java.util.ArrayList;
+
+import org.easymock.EasyMock;
+import org.junit.Before;
+import org.junit.Test;
+
+import desafio.mds.modelo.Aluno;
+
+public class AlunoControleTest {
+	private AlunoControle alunoControle;
+	
+ 	@Before
+	public void setUp() throws Exception {
+ 		//alunoControle = EasyMock.createMock(AlunoControle.class);
+ 		alunoControle = new AlunoControle();
+	}
+
+	@Test
+	public void cadastroAlunoTeste() {
+		assertEquals(alunoControle.cadastroAluno("cleiton", "Esw", 10097021).getMatricula(), 10097021);
+		assertEquals(alunoControle.cadastroAluno("cleiton", "Esw", 10097021).getCurso(), "Esw");
+		assertEquals(alunoControle.cadastroAluno("cleiton", "Esw", 10097021).getNome(), "cleiton");
+	}
+	
+	@Test
+	public void contaAlunosCadastroTeste(){
+		alunoControle.cadastroAluno("cleiton", "Esw", 10097021);
+		assertEquals(alunoControle.contaAlunosCastrados(), 1);
+		alunoControle.cadastroAluno("vanessa", "Esw", 10087023);
+		assertEquals(alunoControle.contaAlunosCastrados(), 2);
+	}
+	
+	public void editarAlunoTeste() {
+		alunoControle.cadastroAluno("clayton", "Esw", 10097021);
+		alunoControle.cadastroAluno("vaneça", "Esw", 10098023);
+		alunoControle.cadastroAluno("fillipe", "Esw", 10097021);
+		assertEquals(alunoControle.editarAluno("cleiton", "Esw", 10097021).getNome(), "cleiton");
+		//assertEquals(alunoControle.cadastroAluno("cleiton", "Esw", 10097021).getCurso(), "Esw");
+		//assertEquals(alunoControle.cadastroAluno("cleiton", "Esw", 10097021).getNome(), "cleiton");
+
+		//EasyMock.expect(calculadoraControle.calculoSoma(5, 5)).andReturn(10.0);
+		//EasyMock.replay(alunoControle);
+	}
+
+}

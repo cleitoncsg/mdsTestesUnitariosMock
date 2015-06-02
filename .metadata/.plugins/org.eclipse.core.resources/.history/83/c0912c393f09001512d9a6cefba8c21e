@@ -1,0 +1,17 @@
+package fga.eletronjun;
+
+public class Fibonacci {
+
+	public static void main(String[] args) {
+		int primeiro = 1;
+		int segundo = 1;
+		int proximo;
+		
+		for (int i = 0; i < 10; i++) {
+			proximo = primeiro + segundo;
+			System.out.println(proximo);
+		}
+
+	}
+
+}
